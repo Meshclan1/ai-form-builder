@@ -7,4 +7,5 @@ const connectionString =
   "postgres://postgres:postgres@localhost:5432/postgres";
 
 const client = postgres(connectionString);
-export const db = drizzle(client, { schema });
+
+export const dbs = drizzle(client, { schema });
