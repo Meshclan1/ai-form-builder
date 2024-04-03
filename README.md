@@ -1,4 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project uses AI to generate forms.
+
+## Tech Stack
+
+- Next-auth - authentication
+- Shadcn ui - ui library
+- Open Al - AI Integration
+- Drizzle - Orm
+- PostgreSQL - database
+- Stripe - payments
+- Tanstack - Table
+- Typescript - Type Checking
+- Plausible - Analytics
+- Vercel - Deployment
+- Stripe - Payments
+- Zod - Schema Validation
+
+## Features
+
+- Authentication ✅
+- AI Form Generation ✅
+- Form Publish and Submissions ✅
+- View your forms ✅
+- Admin Panel ✅
+- View Results ✅
+- Settings & Upgrade Subscription ✅
+- Analytics ✅
+- Landing page ✅
 
 ## Getting Started
 
@@ -19,15 +46,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
