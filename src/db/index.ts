@@ -8,4 +8,4 @@ const connectionString =
 
 const client = postgres(connectionString);
 
-export const dbs = drizzle(client, { schema });
+export const db = drizzle(client, { schema });
