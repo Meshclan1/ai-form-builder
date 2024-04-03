@@ -21,7 +21,7 @@ import { generateForm } from "@/actions/generateForm";
 // React hooks from react-dom
 import { useFormState, useFormStatus } from "react-dom";
 
-// Next-authentication
+// Next-auth authentication
 import { useSession, signIn } from "next-auth/react";
 
 //
