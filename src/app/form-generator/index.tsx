@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from "react";
 
 // Shadcn UI component imports
-
 import {
   Dialog,
   DialogContent,
@@ -17,11 +16,9 @@ import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 
 // Form Generator module
-
 import { generateForm } from "@/actions/generateForm";
 
 // React hooks from react-dom
-
 import { useFormState, useFormStatus } from "react-dom";
 
 // Next-authentication
