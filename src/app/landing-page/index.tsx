@@ -45,7 +45,9 @@ const LandingPage = (props: Props) => {
               alt="arrow"
               className="absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2"
             />
-            <p>1. Add a prompt and describe the requirements for your form.</p>
+            <p className="font-medium">
+              1. Add a prompt and describe the requirements for your form.
+            </p>
           </li>
           <li className="flex flex-col items-center space-y-4 relative">
             <Image
@@ -62,7 +64,7 @@ const LandingPage = (props: Props) => {
               alt="arrow"
               className="absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 scale-x-[-1] rotate-180"
             />
-            <p>2. Generate the form.</p>
+            <p className="font-medium">2. Generate the form.</p>
           </li>
           <li className="flex flex-col items-center space-y-4 relative">
             <Image
@@ -72,7 +74,7 @@ const LandingPage = (props: Props) => {
               alt="check the analytics"
               className="bg-white p-4 shadow-sm border rounded-md"
             />
-            <p>3. Check results, analytics and more.</p>
+            <p className="font-medium">3. Check results, analytics and more.</p>
           </li>
         </ul>
       </section>
