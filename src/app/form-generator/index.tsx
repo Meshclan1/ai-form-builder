@@ -86,7 +86,7 @@ const FormGenerator = (props: Props) => {
               id="description"
               name="description"
               required
-              placeholder="Share what your form is about, who is it for, and what information you would like to collect. And AI will do the magic ✨"
+              placeholder="Share what your form is about, who is it for, and what information you would like to collect. AI will do the magic ✨"
             />
           </div>
           <DialogFooter>
