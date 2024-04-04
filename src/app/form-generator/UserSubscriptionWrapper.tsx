@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { db } from "@/db";
 import { users, forms } from "@/db/schema";
 import { eq } from "drizzle-orm";
-import { MAX_FREE_FROMS } from "@/lib/utils";
+import { MAX_FREE_FORMS } from "@/lib/utils";
 import { Lock } from "lucide-react";
 
 type Props = {
@@ -24,7 +24,7 @@ const UserSubscriptionWrapper = async ({ children }: Props) => {
   });
   const userFormsCount = userForms.length;
 
-  if (subscription || userFormsCount < MAX_FREE_FROMS) {
+  if (subscription || userFormsCount < MAX_FREE_FORMS) {
     return { children };
   }
 
