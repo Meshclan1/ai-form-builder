@@ -57,7 +57,6 @@ const FormGenerator = (props: Props) => {
       setOpen(false);
       navigate(state.data.formId);
     }
-    console.log(state.data);
   }, [state.message]);
 
   const onFormCreate = () => {
