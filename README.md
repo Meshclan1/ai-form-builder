@@ -10,7 +10,7 @@ This project uses AI to generate forms.
 - Stripe - payments
 - Tanstack - Table
 - Typescript - Type Checking
-- Plausible - Analytics
+- Plausible - Analytics Option
 - Vercel - Deployment
 - Stripe - Payments
 - Zod - Schema Validation
