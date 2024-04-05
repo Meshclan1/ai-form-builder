@@ -57,7 +57,6 @@ export async function generateForm(
 
     const choices = json.choices;
     if (!choices || choices.length === 0) {
-      console.log(choices);
       console.log("No choices found in the response");
       return { message: "No choices found in the response" };
     }
