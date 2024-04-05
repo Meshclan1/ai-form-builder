@@ -6,10 +6,8 @@ import React, { useState, useEffect } from "react";
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
   DialogHeader,
   DialogTitle,
-  DialogTrigger,
   DialogFooter,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
@@ -59,6 +57,7 @@ const FormGenerator = (props: Props) => {
       setOpen(false);
       navigate(state.data.formId);
     }
+    console.log(state.data);
   }, [state.message]);
 
   const onFormCreate = () => {
