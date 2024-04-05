@@ -24,7 +24,6 @@ This project uses AI to generate forms.
 - Admin Panel ✅
 - View Results ✅
 - Settings & Upgrade Subscription ✅
-- Analytics ✅
 - Landing page ✅
 
 ## Getting Started
