@@ -28,7 +28,7 @@ const Header = async (props: Props) => {
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <div>
             <Link href="/">
-              <Button variant="link">AI Form Builder</Button>
+              <Button variant="link">Home</Button>
             </Link>
           </div>
 
